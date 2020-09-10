@@ -1,0 +1,184 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  /* Animation */
+}
+@media screen and (min-width: 1025px) {
+  ul {
+    flex-wrap: nowrap;
+  }
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 550px;
+  width: 350px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 5px #808080;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s;
+  /* Animation */
+  opacity: 1;
+  /* Animation */
+}
+
+li:hover {
+  transform: scale(1.1);
+  /* Animation */
+  opacity: 0.7;
+  /* Animation */
+}
+
+a {
+  text-decoration: none;
+}
+
+.link.menu-note h2 {
+  font-family: Devonshire;
+  color: #3D141A;
+  font-size: 1.9em;
+}
+.link.menu-note h3 {
+  text-transform: uppercase;
+  color: #3D141A;
+  font-size: 2em;
+}
+.link.menu-note img.logo-menu-note {
+  width: 20%;
+  align-self: center;
+}
+
+.link.menu-chic h2 {
+  font-family: Croissant cursive;
+  color: #C77426;
+  text-decoration: none;
+  font-size: 1.5em;
+  background: linear-gradient(to right, #C77426 0%, #8E5BFA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.link.menu-chic h3 {
+  font-size: 2em;
+  color: #C8742F;
+}
+
+.link.menu-delice h2 {
+  font-size: 1.9em;
+  background: linear-gradient(to right, #002CDA 0%, #54ACF5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.link.menu-delice h3 {
+  color: #54ACF5;
+  font-size: 2em;
+}
+
+.link.menu-palette h2 {
+  font-size: 1.9em;
+  background: linear-gradient(to right, #7BC365 0%, #BEFF87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.link.menu-palette h3 {
+  color: #7BC365;
+  font-size: 2em;
+}
+
+.menu-note {
+  font-family: "Kalam", serif;
+  font-size: 1.2em;
+  color: #3D141A;
+  background-color: #FEE0DD;
+}
+
+.menu-chic {
+  font-family: "Baskervville", serif;
+  font-size: 1.2em;
+  color: #C77426;
+  background-color: #F2E0F7;
+}
+
+.menu-delice {
+  font-family: "Dancing Script", serif;
+  font-size: 1.2em;
+  color: #002CDA;
+  background-color: #FAFAFA;
+}
+
+.menu-palette {
+  font-family: "Shadows Into Light", serif;
+  font-size: 1.2em;
+  color: #7BC365;
+  background-color: #FFFFFF;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 90px;
+}
+
+.btn--prochainement {
+  font-size: 2em;
+  color: #FDCB53;
+  display: inline-block;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #569C88;
+  width: auto;
+  text-align: center;
+}
+.btn--prochainement:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+span {
+  animation: dots-1 1s infinite steps(1);
+}
+
+span:first-child + span {
+  animation-name: dots-2;
+}
+
+span:first-child + span + span {
+  animation-name: dots-3;
+}
+
+@keyframes dots-1 {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+@keyframes dots-2 {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes dots-3 {
+  from {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style-home.css.map */
