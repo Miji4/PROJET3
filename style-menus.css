@@ -2,7 +2,6 @@
 .title-note {
   display: flex;
   justify-content: center;
-  text-align: center;
   font-size: 1.5em;
   font-family: sans-serif;
 }
@@ -15,7 +14,6 @@
   box-shadow: 0px 0px 8px 1px #a2a5a4;
   margin: 0 auto 100px;
   padding: 20px;
-  text-align: center;
   font-family: "Kalam", serif;
   font-size: 1.2em;
   color: #3D141A;
@@ -51,9 +49,7 @@
 /* Underline From Left */
 .title-menu-note h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 .title-menu-note h3:before {
   content: "";
@@ -62,10 +58,8 @@
   right: 100%;
   bottom: 0;
   background: #3D141A;
-  height: 4px;
-  transition-property: right;
+  height: 2px;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 .title-menu-note h3:hover:before {
   right: 0;
@@ -77,12 +71,6 @@ ul {
   justify-content: space-between;
   margin: 15px 40px;
   padding: 0;
-}
-@media screen and (max-width: 580px) {
-  ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 li {
@@ -117,7 +105,6 @@ li {
   box-shadow: 0px 0px 8px 1px #a2a5a4;
   margin: 0 auto 100px;
   padding: 20px;
-  text-align: center;
   font-family: "Baskervville", serif;
   font-size: 1.2em;
   color: #C77426;
@@ -165,9 +152,7 @@ section {
 
 section.card-menu-chic_starter h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-chic_starter h3:before {
   content: "";
@@ -176,10 +161,8 @@ section.card-menu-chic_starter h3:before {
   right: 100%;
   bottom: 0;
   background: #C8742F;
-  height: 4px;
-  transition-property: right;
+  height: 2px;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-chic_starter h3:hover:before {
   right: 0;
@@ -187,9 +170,7 @@ section.card-menu-chic_starter h3:hover:before {
 
 section.card-menu-chic_dish h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-chic_dish h3:before {
   content: "";
@@ -198,10 +179,8 @@ section.card-menu-chic_dish h3:before {
   right: 100%;
   bottom: 0;
   background: #A56797;
-  height: 4px;
-  transition-property: right;
+  height: 2px;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-chic_dish h3:hover:before {
   right: 0;
@@ -209,9 +188,7 @@ section.card-menu-chic_dish h3:hover:before {
 
 section.card-menu-chic_dessert h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-chic_dessert h3:before {
   content: "";
@@ -220,10 +197,8 @@ section.card-menu-chic_dessert h3:before {
   right: 100%;
   bottom: 0;
   background: #6E4CC9;
-  height: 4px;
-  transition-property: right;
+  height: 2px;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-chic_dessert h3:hover:before {
   right: 0;
@@ -246,7 +221,6 @@ section.card-menu-chic_dessert h3:hover:before {
   box-shadow: 0px 0px 8px 1px #a2a5a4;
   margin: 0 auto 100px;
   padding: 20px;
-  text-align: center;
   font-family: "Dancing Script", serif;
   font-size: 1.2em;
   color: #002CDA;
@@ -282,9 +256,7 @@ section.card-menu-chic_dessert h3:hover:before {
 
 section.card-menu-delice_starter h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-delice_starter h3:before {
   content: "";
@@ -294,9 +266,7 @@ section.card-menu-delice_starter h3:before {
   bottom: 0;
   background: #0027D9;
   height: 2px;
-  transition-property: right;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-delice_starter h3:hover:before {
   right: 0;
@@ -304,9 +274,7 @@ section.card-menu-delice_starter h3:hover:before {
 
 section.card-menu-delice_dish h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-delice_dish h3:before {
   content: "";
@@ -316,9 +284,7 @@ section.card-menu-delice_dish h3:before {
   bottom: 0;
   background: #0D6AEF;
   height: 2px;
-  transition-property: right;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-delice_dish h3:hover:before {
   right: 0;
@@ -326,9 +292,7 @@ section.card-menu-delice_dish h3:hover:before {
 
 section.card-menu-delice_dessert h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section.card-menu-delice_dessert h3:before {
   content: "";
@@ -338,9 +302,7 @@ section.card-menu-delice_dessert h3:before {
   bottom: 0;
   background: #3AABF5;
   height: 2px;
-  transition-property: right;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section.card-menu-delice_dessert h3:hover:before {
   right: 0;
@@ -363,7 +325,6 @@ section.card-menu-delice_dessert h3:hover:before {
   box-shadow: 0px 0px 8px 1px #a2a5a4;
   margin: 0 auto 100px;
   padding: 20px;
-  text-align: center;
   font-family: "Shadows Into Light", serif;
   font-size: 1.2em;
   color: #7BC365;
@@ -399,9 +360,7 @@ section.card-menu-delice_dessert h3:hover:before {
 
 section h3 {
   display: inline-block;
-  transform: perspective(1px) translateZ(0);
   position: relative;
-  overflow: hidden;
 }
 section h3:before {
   content: "";
@@ -411,9 +370,7 @@ section h3:before {
   bottom: 0;
   background: #459945;
   height: 2px;
-  transition-property: right;
   transition-duration: 0.3s;
-  transition-timing-function: ease-out;
 }
 section h3:hover:before {
   right: 0;
