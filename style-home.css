@@ -22,6 +22,7 @@ li {
   box-shadow: 1px 1px 5px #808080;
 }
 
+/* Animation zoom sur l'image avec effet de fondu */
 .link-menu {
   text-decoration: none;
   transition: all 300ms ease-in-out;
