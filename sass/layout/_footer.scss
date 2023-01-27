@@ -1,0 +1,46 @@
+footer{
+    @include footer;
+    & .footer__info{
+        display: contents;
+        position: fixed;
+        a {
+            @include lien;
+            @media screen and (max-width: $breakpoint-phone) {
+              font-size:  1em;
+            }
+          }
+    }
+}
+//fixation footer//
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+}
+//animation shake mentions légales et contact//
+
+.footer__info--lien:hover {
+  animation: shake 1s ease-in-out;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+

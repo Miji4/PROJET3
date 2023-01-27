@@ -1,0 +1,19 @@
+.header__main{
+    text-align: center;
+    height: 100px;
+    background: $main-bg-color;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    &--title{
+        font-family: sans-serif;
+        margin: 0;
+       
+    }
+    &--lien{
+        text-decoration: none;
+        font-size: 2em;
+        color: $main-text-color;
+       
+    }
+}
+

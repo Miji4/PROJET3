@@ -1,0 +1,96 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    @media screen and (min-width: $breakpoint-desktop) {
+        flex-wrap: nowrap;
+    }
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 350px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: $box-shadow;
+}
+
+/* Animation zoom sur l'image avec effet de fondu */
+
+.link-menu{
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.link-menu:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+  
+.link.menu-note{
+    
+    h2 {
+        font-family: Devonshire;
+        color: $color-text-menunote;
+        font-size: 1.9em;
+    }
+    h3{
+        text-transform: uppercase;
+        color: $color-text-menunote;
+        font-size: 2em;
+    }
+    img.logo-menu-note{
+        width: 20%;
+        align-self: center;
+    }
+}
+
+.link.menu-chic {
+    h2 {
+        font-family: Croissant cursive;
+        color: $color-text-menuchic;
+		text-decoration: none;
+		font-size: 1.5em;
+		background: linear-gradient(to right, $color-text-menuchic 0%, #8E5BFA 100%);
+		-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    }
+    h3{
+        font-size: 2em;
+        color: #C8742F;
+    }
+}
+
+.link.menu-delice {
+    h2 {
+        font-size: 1.9em;
+		background: linear-gradient(to right, $color-text-menudelice 0%,#54ACF5  100%);
+		-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    
+    }
+    h3{
+       color: #54ACF5;
+        font-size: 2em;
+    }
+}
+
+.link.menu-palette {
+    h2 {
+        font-size: 1.9em;
+		background: linear-gradient(to right, $color-text-menupalette 0%, #BEFF87 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+    }
+    h3{
+        color:$color-text-menupalette;
+        font-size: 2em;
+    }
+}
+

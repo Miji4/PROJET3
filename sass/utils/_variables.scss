@@ -1,0 +1,48 @@
+// variables couleurs //
+
+// variables couleurs principales body header footer aside //
+$bg-body: #FAFAFA;
+$main-bg-color: #569C88;
+$main-text-color: #FDCB53;
+
+// variables couleurs text menu page d'accueil //
+
+$color-text-menunote: #3D141A;
+$color-text-menuchic: #C77426;
+$color-text-menudelice:#002CDA;
+$color-text-menupalette: #7BC365;
+
+// variables couleur bg menu //
+
+$bg-menunote:#FEE0DD;
+$bg-menuchic: #FFF5FE;
+$bg-menudelice: #F9F9F9;
+$bg-menupalette: #FDFFFD;
+
+// variables fonts //
+
+$font-main: 'Open', serif;
+$font-menunote: 'Kalam',  serif;
+$font-menuchic: 'Baskervville', serif; 
+$font-menudelice: 'Dancing Script', serif;
+$font-menupalette: 'Shadows Into Light', serif; 
+
+// variables size fonts //
+
+$fontsizetitremenu: 1.5em;
+$fontsizelien: 1.7em;
+$fontsizemenu:1.2em;
+
+// variable couleur box-shadow //
+
+$colorshadow: #808080;
+
+// variables box-shadow //
+
+$box-shadow: 1px 1px 5px $colorshadow;
+
+// variabes breakpoint //
+
+$breakpoint-phone: 580px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1025px;
