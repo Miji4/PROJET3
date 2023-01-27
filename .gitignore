@@ -3,5 +3,5 @@
 *.sass.map
 *.scss.map
 dart-sass/
-sass/
+
 
